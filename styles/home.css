@@ -1,5 +1,6 @@
 .home {
     text-align: center;
+    padding: 0 0 70px 0;
 }
 
 .home-title {
@@ -18,7 +19,7 @@
 
 .home-img {
     width: 100%;
-    height: 535px;
+    height: 730px;
     object-fit: cover;
 }
 
@@ -33,5 +34,8 @@
 
     .home-description {
     font-size: 14px;
+    }
+    .home-img {
+    max-height: 535px;
     }
 }

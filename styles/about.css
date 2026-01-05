@@ -1,0 +1,32 @@
+.about {
+    background-color: var(--bg-main-grey);
+    padding: 60px 30px 100px;
+    text-align: center;
+    color: var(--color-main-black);
+}
+
+.about-title {
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.about-subtitle {
+    font-style: 18px;
+    font-weight: 500;
+    margin: 25px auto 15px ;
+    max-width: 780px;
+}
+
+.about-description {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 auto 15px ;
+    text-align: justify;
+    max-width: 780px;
+}
+
+@media (max-width: 480px) {
+    .about-subtitle, .about-description {
+        font-size: 14px;
+    }
+}
