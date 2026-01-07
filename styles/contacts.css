@@ -1,0 +1,81 @@
+.contacts {
+    padding: 55px 20px 63px;
+    text-align: center;
+}
+
+.contacts-title {
+    font-size: 34px;
+    font-weight: 700;
+    color: var(--color-main-black);
+}
+
+.contacts-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: var(--color-main-black);
+    color: var(--bg-main);
+    font-size: 20px; 
+    font-weight: 500;
+    text-decoration: none; 
+    margin: 75px auto 30px; 
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+}
+
+.contacts-button:hover {
+    opacity: .8;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+.social-icon {
+    width: 65px;
+    height: 65px;
+    fill: var(--color-main-black);
+}
+
+.social-icon:hover {
+    fill: rgb(55, 102, 133);
+}
+
+.contacts-info {
+    width: 260px;
+    color: var(--font-color-grey);
+    margin: 35px auto 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+@media (max-width: 480px) {
+
+.contacts-info {
+    font-size: 14px;
+}
+
+  .gallery-picture {
+    margin: 50px 0 30px;
+  }
+
+  .social-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.socials {
+    gap: 20px;
+}
+
+.contacts-button {
+    margin: 40px auto 30px;
+}
+}

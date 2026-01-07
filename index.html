@@ -19,23 +19,23 @@
         <nav class="nav" aria-label="header navigation">
           <ul class="nav-list" aria-label="header navigation list">
             <li>
-              <a href="#" class="nav-link" aria-label="link to home">Home</a>
+              <a href="#home-id" class="nav-link" aria-label="link to home">Home</a>
             </li>
             <li>
-              <a href="#" class="nav-link" aria-label="link to about">About</a>
+              <a href="#about-id" class="nav-link" aria-label="link to about">About</a>
             </li>
             <li>
-              <a href="#" class="nav-link" aria-label="link to design"
+              <a href="#design-id" class="nav-link" aria-label="link to design"
                 >Design</a
               >
             </li>
             <li>
-              <a href="#" class="nav-link" aria-label="link to Rooftop"
-                >Rooftop</a
+              <a href="#gallery-id" class="nav-link" aria-label="link to Gallery"
+                >Gallery</a
               >
             </li>
             <li>
-              <a href="#" class="nav-link" aria-label="link to contacts"
+              <a href="#contacts-id" class="nav-link" aria-label="link to contacts"
                 >Contacts</a
               >
             </li>
@@ -44,7 +44,7 @@
       </div>
     </header>
     <main aria-label="main">
-      <section class="home" aria-label="home section">
+      <section class="home" aria-label="home section" id="home-id">
         <div class="container">
           <h1 class="home-title" aria-label="title">
             Lumea Residences at Dubai Islands by Green Horizon Developments
@@ -61,7 +61,7 @@
         </div>
       </section>
 
-      <section class="about" aria-label="about section">
+      <section class="about" aria-label="about section" id="about-id">
         <div class="container">
           <h2 class="about-title" aria-label="about title">About</h2>
           <hr class="divider" aria-label="divider" />
@@ -84,7 +84,7 @@
         </div>
       </section>
 
-      <section class="design" aria-label="design section">
+      <section class="design" aria-label="design section" id="design-id">
         <div class="container">
           <h2 class="design-title" aria-label="design-title">
             Limited Collection — Privacy and Exclusivity
@@ -104,7 +104,70 @@
           </p>
         </div>
       </section>
+      <section class="gallery" aria-label="gallery-section" id="gallery-id">
+        <div class="container">
+          <h2 class="gallery-title" aria-label="gallery title">Gallery</h2>
+          <img
+            src="assets/webp/sofa.webp"
+            alt="Living room"
+            class="gallery-picture"
+          />
+          <p class="gallery-description" aria-label="picture 1 description">
+            Sun-drenched interiors featuring floor-to-ceiling glass, premium
+            marble finishes, and panoramic skyline views. A seamless blend of
+            open-space design and sophisticated comfort.
+          </p>
+          <img
+            src="assets/webp/kitchen.webp"
+            alt="kitchen"
+            class="gallery-picture"
+          />
+          <p class="gallery-description" aria-label="picture 2 description">
+            A chef-grade space equipped with integrated state-of-the-art
+            appliances, custom cabinetry, and sleek stone countertops.
+            Minimalist aesthetics meet maximum functionality.
+          </p>
+          <img
+            src="assets/webp/pool.webp"
+            alt="rooftop"
+            class="gallery-picture"
+          />
+          <p class="gallery-description" aria-label="picture 3 description">
+            An exclusive resident-only escape featuring an infinity pool, plush
+            cabanas, and 360° views of Dubai. The ultimate destination for
+            sunset relaxation and social gatherings.
+          </p>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer class="contacts" aria-label="contacts section" id="contacts-id">
+      <div class="container">
+        <h2 class="contacts-title" aria-label="contacts">Contacts</h2>
+        <a href="https://dubai-islands.org/lumea-residences/" class="contacts-button" target="_blank">Contact Us</a>
+        <address class="socials" aria-label="social icons">
+          <a href="https://www.youtube.com/channel/UCxIgFR8L_AQhDi8YXqmRJvw?ysclid=mk4hqgukbo421372949" target="_blank" aria-label="link to youtube">
+           <svg class="social-icon" aria-label="youtube icon">
+            <use href="assets/sprites.svg#youtube-icon"></use>
+           </svg>
+          </a>
+          <a href="https://au.linkedin.com/company/lumeaau" target="_blank" aria-label="link to linkedin">
+           <svg class="social-icon" aria-label="linkedin icon">
+            <use href="assets/sprites.svg#linkedin-icon"></use>
+           </svg>
+          </a>
+          <a href="https://www.instagram.com/luminaresidences/" target="_blank" aria-label="link to instagram">
+           <svg class="social-icon" aria-label="instagram icon">
+            <use href="assets/sprites.svg#instagram-icon"></use>
+           </svg>
+          </a>
+          <a href="https://www.facebook.com/L%C3%BAmea-102173964758350/" target="_blank" aria-label="link to facebook">
+           <svg class="social-icon" aria-label="facebook icon">
+            <use href="assets/sprites.svg#facebook-icon"></use>
+           </svg>
+          </a>
+        </address>
+        <p class="contacts-info" aria-label="just for notice">More you can see in these social networks</p>
+      </div>
+    </footer>
   </body>
 </html>
